@@ -6,9 +6,10 @@ You can refer to the following repositories for reference to the original code
 1. [Sacremoses](https://github.com/alvations/sacremoses)
 2. [mosesdecoder](https://github.com/moses-smt/mosesdecoder)
 
-## Features
+## Features & Limitation
 
 Currently the port is only for tokenizer and normalizer for english and non-chinese languages. While the original sacremoses has detokenizer and true casing as well, they are not yet currently implemented.
+
 
 # Install
 
