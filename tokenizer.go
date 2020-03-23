@@ -336,7 +336,6 @@ func NewTokenizer(lang string) (tokenizer *Tokenizer) {
 		if matched, _ := regexp.MatchString(`(.*)[\s]+(\#NUMERIC_ONLY\#)`, prefix); matched {
 			thisPrefix := strings.Split(prefix, " ")[0]
 			numericOnlyPrefixes = append(numericOnlyPrefixes, thisPrefix)
-			O
 		}
 	}
 	tokenizer = &Tokenizer{lang, nonBreakingPrefixes, numericOnlyPrefixes}
