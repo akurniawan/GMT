@@ -12,7 +12,7 @@ Currently the port is only for tokenizer and normalizer for english and non-chin
 
 
 # Install
-
+`go get github.com/akurniawan/GMT`
 
 # Usage
 
