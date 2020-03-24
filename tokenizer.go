@@ -6,12 +6,12 @@ import (
 	"strings"
 )
 
-var isN = PerlPropsLoader("isN")
+var isN = PerlPropsLoader("isNumber")
 var isAlnum = PerlPropsLoader("isAlnum")
 var isSc = PerlPropsLoader("isSc")
 var isSo = PerlPropsLoader("isSo")
-var isAlpha = PerlPropsLoader("IsAlpha")
-var isLower = PerlPropsLoader("IsLower")
+var isAlpha = PerlPropsLoader("isAlpha")
+var isLower = PerlPropsLoader("isLower")
 
 // Remove ASCII junk.
 var deduplicateSpace = NewReplacement(`\s+`, ` `)
